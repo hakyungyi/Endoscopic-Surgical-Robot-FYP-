@@ -4,6 +4,10 @@
 
 This repository contains the source code and report for my Final Year Project (FYP), titled “Home Position Tuning for Endoscopic Surgical Robots.” The project presents an innovative control algorithm designed to calibrate the home position of robotic end-effectors using motor current feedback for enhanced accuracy in minimally invasive surgeries.
 
+<div align="center">
+  <img width="632" alt="Screenshot 2024-08-15 at 12 06 38 PM" src="https://github.com/user-attachments/assets/cb55e9b0-19c0-419b-811c-15148ba6ea52" />
+</div>
+
 ## Contents
 - Final Code.py — Python implementation of the control algorithm.
 - B217 FYP Report - Hakyung Yi.pdf — Detailed project report, including methodology, results, and discussion.
@@ -48,6 +52,10 @@ Software:
 - Accuracy: The algorithm consistently detected the home position with minimal error.
 - Performance: The moving average filter (window size of 8) and current thresholding improved detection stability.
 - Limitations: High curvature configurations introduced more noise but were compensated by adaptive feedback.
+
+<div align="center">
+  <img width="600" alt="image" src="https://github.com/user-attachments/assets/68c73c83-1d47-4c59-8e26-0a72f06eef52" />
+</div>
 
 ## Future Work
 - Extend the algorithm to support multi-degree-of-freedom (multi-DOF) robotic arms.
